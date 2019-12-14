@@ -12,7 +12,7 @@ The [Standard Files and Directories and Improved Template](https://scalacourses.
 lecture discusses this GitHub project in detail.
 
 ## Bash Script
-This template is best used in conjunction with a bash script that looks like this, which you might place in `/usr/local/bin/play27Template`:
+This template is best used in conjunction with a bash script that looks like this, which you might place in `/usr/local/bin/play28Template`:
 
 ```bash
 #!/bin/bash
@@ -49,7 +49,7 @@ $ sbt -jvm-debug 9999 run
 ## Using GitHub?
 
 ### GitHub Pages
-`play27Template` sets up the GitHub pages branch for your new project.
+`play28Template` sets up the GitHub pages branch for your new project.
 Before you can use it, edit `build.sbt` and change this line so your GitHub user id and project name are substituted
 for the placeholders `yourGithubId` and `my-new-project`:
 
@@ -95,7 +95,7 @@ Reload `~/.bash_profile`
 
     $ source `~/.profile`
 
-#### Using play27Template with Hub
+#### Using play28Template with Hub
 Create a new SBT project and create a new GitHub project, which `hub` automatically adds as a `git` `remote`:
 
     $ play28Template bigBadProject
