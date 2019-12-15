@@ -73,7 +73,7 @@ libraryDependencies ++= Seq( // TODO (un)comment dependencies that your project 
   "com.typesafe.play"         %% "play-json-joda"     % "2.8.0"    withSources(),
   "com.typesafe.play"         %% "twirl-api"          % "1.5.0"    withSources(),
   "net.codingwell"            %% "scala-guice"        % "4.2.6",
-  "org.webjars"               %% "webjars-play"       % "2.8.0-RC5" withSources(),
+  "org.webjars"               %% "webjars-play"       % "2.8.0" withSources(),
   "org.webjars"               %  "bootstrap"          % "4.4.1",
 //  "com.github.tototoshi"      %% "slick-joda-mapper"    % "2.4.1"  withSources(),
 //  "com.typesafe.slick"        %% "slick"                % "3.3.2"  withSources(),
