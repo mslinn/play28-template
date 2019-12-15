@@ -35,7 +35,7 @@ addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.5.0")
 addSbtPlugin("com.thoughtworks.sbt-api-mappings" % "sbt-api-mappings" % "3.0.0")
 
 libraryDependencies ++= Seq(
-  "com.puppycrawl.tools" % "checkstyle" % "8.25"
+  "com.puppycrawl.tools" % "checkstyle" % "8.27"
 )
 
 //addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.5.2")
