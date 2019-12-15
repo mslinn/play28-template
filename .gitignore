@@ -15,6 +15,7 @@ dist
 logs
 __MACOSX
 Notepad++/
+null/
 *.out
 play-fork-run.sbt
 .project

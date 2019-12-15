@@ -11,4 +11,4 @@
  *
  * The full legal text is here: https://creativecommons.org/publicdomain/zero/1.0/legalcode */
 
-addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.4")
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.5")
