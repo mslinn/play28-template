@@ -77,7 +77,7 @@ libraryDependencies ++= Seq( // TODO (un)comment dependencies that your project 
   "org.webjars"               %  "bootstrap"          % "4.4.1",
 //  "com.github.tototoshi"      %% "slick-joda-mapper"    % "2.4.1"  withSources(),
 //  "com.typesafe.slick"        %% "slick"                % "3.3.2"  withSources(),
-  "com.github.vital-software" %% "json-annotation"      % "0.6.2"  withSources(),
+  "com.github.vital-software" %% "json-annotation"      % "0.6.3"  withSources(),
 //  "com.typesafe.play"         %% "play-slick"           % "4.0.2"  withSources(),
 //  "org.postgresql"            % "postgresql"            % "42.2.8" withSources(),
   "org.webjars"               %  "jquery-ui"          % "1.12.1",
