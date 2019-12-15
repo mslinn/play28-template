@@ -1,7 +1,8 @@
 import play.api.test._
 import play.api.test.Helpers._
 import org.scalatest._
-import org.scalatestplus.play.{OneAppPerSuite, PlaySpec}
+import org.scalatestplus.play.PlaySpec
+import org.scalatestplus.play.guice.GuiceOneAppPerSuite
 import play.test.WithApplication
 
 /** See these lectures:<br>
@@ -9,7 +10,7 @@ import play.test.WithApplication
   * &bull; [[https://scalacourses.com/student/showLecture/20 Testing Play for Scala Applications]] <br>
   * &bull; [[https://scalacourses.com/student/showLecture/252 Mitigating the Impact of Play's API Churn on Tests]] <br>
   * &bull; [[https://scalacourses.com/student/showLecture/251 Example Play for Scala Tests]] */
-class ApplicationSpec extends PlaySpec with OneAppPerSuite {
+class ApplicationSpec extends PlaySpec with GuiceOneAppPerSuite {
   "ApplicationController" should {
     "send 404 on a bad request" ignore { // all routes are valid
       route(app, FakeRequest(GET, "/boom")) foreach { result =>
