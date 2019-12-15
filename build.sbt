@@ -68,7 +68,7 @@ libraryDependencies ++= Seq( // TODO (un)comment dependencies that your project 
 //  "com.typesafe.play"         %% "play-mailer"        % "6.0.1"  withSources(),
 //  "com.typesafe.play"         %% "play-mailer-guice"  % "6.0.1"  withSources(),
   "com.typesafe.akka"         %% "akka-slf4j"         % "2.6.1",
-  "com.typesafe"              %  "config"             % "1.3.4"    withSources(),
+  "com.typesafe"              %  "config"             % "1.4.0"    withSources(),
   "com.typesafe.play"         %% "play-json"          % "2.8.0"    withSources(),
   "com.typesafe.play"         %% "play-json-joda"     % "2.8.0"    withSources(),
   "com.typesafe.play"         %% "twirl-api"          % "1.5.0"    withSources(),
