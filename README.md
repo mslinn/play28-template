@@ -1,4 +1,4 @@
-# Play Framework 2.7 Template
+# Play Framework 2.8 Template
 
 [![License](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/share-your-work/public-domain/cc0/)
 [![GitHub version](https://badge.fury.io/gh/mslinn%2Fplay28-template.svg)](https://badge.fury.io/gh/mslinn%2Fplay28-template)
