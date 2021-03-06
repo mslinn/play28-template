@@ -31,7 +31,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-mocha"         % "1.1.2")
 // See https://github.com/jrudolph/sbt-dependency-graph
 //addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.10.0-RC1")
 
-addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.5.0")
+addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.5.2")
 
 addSbtPlugin("com.thoughtworks.sbt-api-mappings" % "sbt-api-mappings" % "3.0.0")
 
