@@ -17,7 +17,7 @@ import sbt.Keys._
 // Comment to get more information during initialization
 //logLevel := Level.Warn
 
-addSbtPlugin("com.typesafe.play" % "sbt-plugin"       % "2.8.1")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin"       % "2.8.11")
 
 // Optional plugins; best to comment these for faster compilation.
 // Uncommented so Scala Steward keeps them updated.
